@@ -1,0 +1,60 @@
+{
+  "name": "storiesbook",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development next dev -p 5000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fix": "yarn fix:eslint && yarn fix:prettier"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "immutability-helper": "^3.1.1",
+    "js-cookie": "^3.0.5",
+    "next": "13.4.19",
+    "phosphor-react": "^1.4.1",
+    "react": "18.2.0",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "18.2.0",
+    "react-number-format": "^5.3.0",
+    "react-pdf": "^7.3.3",
+    "resize-observer-polyfill": "^1.5.1",
+    "swr": "^2.2.1",
+    "typescript": "5.1.6",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@types/js-cookie": "^3.0.3",
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.20",
+    "@types/react-datepicker": "^4.15.0",
+    "@types/react-dom": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "autoprefixer": "10.4.15",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
+    "postcss": "8.4.28",
+    "tailwindcss": "3.3.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn fix && git add ."
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "prettier --write",
+      "eslint --fix --cache"
+    ],
+    "*.{yml,md,json,html}": [
+      "prettier --write"
+    ]
+  }
+}
