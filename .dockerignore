@@ -1,5 +1,11 @@
+node_modules
+.next
 .vscode
-docker
+*.DS_Store
+.gitignore
+README.md
 .dockerignore
-dist
-node_modules 
+LICENSE
+.docker
+.gitlab
+.git
