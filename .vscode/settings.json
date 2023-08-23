@@ -3,7 +3,8 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": true
+    // "source.organizeImports": true,
+    "source.sortMembers": true
   },
   "cSpell.words": ["datepicker", "storiesbook", "tailwindcss"]
 }

@@ -1,6 +1,6 @@
+import { GetServerSideProps } from 'next/types'
 import { i18n, useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { GetServerSideProps } from 'next/types'
 
 type Props = {
   test: string
@@ -11,7 +11,7 @@ const Hello = ({ test }: Props) => {
 
   return (
     <>
-      <div>{t(`hello`)}</div>
+      <div>{t('hello')}</div>
       <div>{test}</div>
     </>
   )
