@@ -6,5 +6,5 @@
     // "source.organizeImports": true,
     "source.sortMembers": true
   },
-  "cSpell.words": ["datepicker", "storiesbook", "tailwindcss"]
+  "cSpell.words": ["clsx", "datepicker", "storiesbook", "tailwindcss"]
 }

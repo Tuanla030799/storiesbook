@@ -11,7 +11,6 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <meta name="keywords" content="Stories, Book, Blog" />
         <meta name="author" content="Le Anh Tuan" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <body>
         <Main />
