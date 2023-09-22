@@ -12,7 +12,7 @@ app.prepare().then(async () => {
   server.listen(port)
 
   console.log(
-    `> Server listening at http://localhost:${port} as ${
+    `> Server listening at http://localhost:${port}/stb as ${
       dev ? 'development' : 'production'
     }`
   )
