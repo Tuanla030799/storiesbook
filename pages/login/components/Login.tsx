@@ -50,10 +50,7 @@ const Login = () => {
   }
 
   return (
-    <Container
-      maxWidth="lg"
-      className="tw-bg-white tw-grow tw-flex tw-items-center tw-shadow "
-    >
+    <Container maxWidth="lg" className="tw-grow tw-flex tw-items-center">
       <Box className="tw-h-full tw-grow">
         <Grid container justifyContent="center">
           <CssBaseline />

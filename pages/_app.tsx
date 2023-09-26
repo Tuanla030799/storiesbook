@@ -10,15 +10,46 @@ import { ReactNode, useEffect, useState } from 'react'
 
 export const themeOptions: ThemeOptions = {
   palette: {
-    mode: 'light',
-    primary: {
-      main: '#3f51b5',
+    text: {
+      primary: '#333333',
+      secondary: '#666666',
+      disabled: '#a6b3b3',
     },
-    secondary: {
-      main: '#f50057',
+  },
+  typography: {
+    fontFamily: 'Inter',
+    fontSize: 15,
+    h2: {
+      fontSize: '1.25rem',
+      color: '#333333',
+      lineHeight: '1.5rem',
+      fontWeight: 600,
     },
-    error: {
-      main: '#d32f2f',
+    h4: {
+      fontSize: '0.9375rem',
+      color: '#333333',
+      lineHeight: '1.125rem',
+      fontWeight: 600,
+    },
+    subtitle1: {
+      fontSize: '0.75rem',
+      color: '#a6b3b3',
+      lineHeight: '1.125rem',
+    },
+    subtitle2: {
+      fontSize: '0.875rem',
+      color: '#999999',
+      lineHeight: '1.3125rem',
+    },
+    body1: {
+      fontSize: '0.9375rem',
+      color: '#333333',
+      lineHeight: '1.40625rem',
+    },
+    body2: {
+      fontSize: '0.875rem',
+      color: '#666666',
+      lineHeight: '1.3125rem',
     },
   },
 }

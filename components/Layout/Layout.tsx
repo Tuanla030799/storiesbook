@@ -13,7 +13,7 @@ const Layout = ({ children }: TLayoutProps) => {
       <Header />
       <Box
         component="main"
-        className="tw-mt-[96px] tw-flex tw-flex-col tw-items-stretch tw-grow tw-bg-gray-50"
+        className="tw-mt-[96px] tw-flex tw-flex-col tw-items-stretch tw-grow tw-bg-home tw-bg-top tw-bg-no-repeat"
       >
         {children}
       </Box>
