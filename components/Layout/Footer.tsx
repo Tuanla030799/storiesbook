@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Box
       component="footer"
-      className="tw-text-center tw-py-6 tw-bg-footer tw-bg-bottom tw-bg-no-repeat"
+      className="tw-text-center tw-py-6 tw-bg-footer tw-bg-bottom tw-bg-no-repeat tw-border-t"
     >
       <Container maxWidth="xl">
         <Grid container>
