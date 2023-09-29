@@ -3,9 +3,9 @@ import type { Config } from 'tailwindcss'
 const config: Config = {
   prefix: 'tw-',
   important: true,
-  // corePlugins: {
-  //   preflight: false,
-  // },
+  corePlugins: {
+    preflight: false,
+  },
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -46,7 +46,6 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'course-detail': "url('../public/images/course_detail_bg.png')",
-        footer: "url('../public/images/footer-bg.png')",
         home: "url('../public/images/home-bg.jpg')",
       },
       boxShadow: {
@@ -63,6 +62,7 @@ const config: Config = {
         black: 'rgb(var(--black) / <alpha-value>)',
         base: 'rgb(var(--base) / <alpha-value>)',
         secondary: 'rgb(var(--secondary) / <alpha-value>)',
+        footer: 'rgb(var(--footer) / <alpha-value>)',
         primary: {
           25: 'rgb(var(--primary-25) / <alpha-value>)',
           50: 'rgb(var(--primary-50) / <alpha-value>)',
